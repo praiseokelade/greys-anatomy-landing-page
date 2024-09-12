@@ -1,0 +1,40 @@
+:root {
+  --heading-font: "Poppins", serif;
+  --main-font: "Montserrat", sans-serif;
+  --background-colour: #495e73;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.navbar {
+    padding: 0;
+}
+
+.container-fluid { 
+    background: var(--background-colour);
+    padding: 20px;
+}
+
+nav a {
+    font-family: var(--heading-font);
+    font-weight: bold;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/189/original/Characters.png?1726169160");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 350px 250px 200px 250px;
+}
+
+h1 {
+  color: #fff;
+  font-family: var(--heading-font);
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 70px;
+}
