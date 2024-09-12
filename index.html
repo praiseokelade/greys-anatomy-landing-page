@@ -8,33 +8,103 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Greys Anatomy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Grey's Anatomy</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-     <div class="container-fluid">
-     <a class="navbar-brand" href="#">Greys Anatomy</a>
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Season Guide</a>
-        <a class="nav-link" href="#">Characters & Cast</a>
-        <a class="nav-link" href="#">Where to Watch</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Grey's Anatomy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Season Guide</a>
+            <a class="nav-link" href="#">Characters & Cast</a>
+            <a class="nav-link" href="#">Where to Watch</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</nav>
+    </nav>
     <header>
-        <h1>Greys Anatomy</h1>
+      <h1>Grey's Anatomy</h1>
     </header>
+    <main>
+      <section class="about-section">
+        <div class="row">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/203/original/MainCharacters.png?1726175534"
+            alt="Main Characters"
+            class="col-6 col-sm img-fluid"
+          />
+          <p class="col-6 col-sm show-summary">
+            The doctors of Grey Sloan Memorial Hospital deal with life-or-death
+            consequences on a daily basis -- it's in one another that they find
+            comfort, friendship and, at times, more than friendship. Together
+            they're discovering that neither medicine nor relationships can be
+            defined in black and white. Real life only comes in shades of grey.
+          </p>
+        </div>
+      </section>
+      <section class="season-guide">
+        <div class="row season">
+          <div class="season-summary col-6">
+            <h3 class="season-header">Season 1</h3>
+            <p>
+              Meredith Grey, the daughter of the once-renowned surgeon Ellis
+              Grey, becomes an intern at the Seattle Grace Hospital. She meets
+              fellow interns Cristina Yang, Isobel "Izzie" Stevens, George
+              O'Malley and Alex Karev who become her closest friends during the
+              intern program.
+            </p>
+          </div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/188/original/howitstarted.jpg?1726168781"
+            alt="Season 1"
+            class="img-fluid col-6 col-sm"
+          />
+        </div>
+        <div class="row season">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/187/original/ogs.jpg?1726168770"
+            alt="Season 2"
+            class="img-fluid col-6 col-sm"
+          />
+          <div class="season-summary col-6">
+            <h3 class="season-header">Season 2</h3>
+            <p>
+              This season continued to focus on the surgical residency of five
+              young interns as they try to balance the challenges of their
+              competitive careers with the difficulties that determine their
+              personal lives. This season provides a detailed perspective on the
+              personal background of each character.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="characters-cast">
+        <ul class="slider">
+            <li class="character meredith-grey"></li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>

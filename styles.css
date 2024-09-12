@@ -6,20 +6,21 @@
 
 body {
   font-family: var(--main-font);
+  background: var(--background-colour);
 }
 
 .navbar {
-    padding: 0;
+  padding: 0;
 }
 
-.container-fluid { 
-    background: var(--background-colour);
-    padding: 20px;
+.container-fluid {
+  background: var(--background-colour);
+  padding: 20px;
 }
 
 nav a {
-    font-family: var(--heading-font);
-    font-weight: bold;
+  font-family: var(--heading-font);
+  font-weight: bold;
 }
 
 header {
@@ -37,4 +38,50 @@ h1 {
   font-weight: bold;
   text-align: center;
   padding-top: 70px;
+}
+
+.about-section {
+  padding: 20px;
+  grid-gap: 10px;
+  background: #fff;
+  max-width: 85%;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.show-summary {
+  padding: 0 20px;
+  align-content: center;
+}
+
+.season-guide {
+  max-width: 90%;
+  background: #96adc4;
+  margin: 0 auto;
+}
+
+.season-summary {
+  padding: 20px 40px;
+  align-content: center;
+  font-size: 20px;
+}
+
+.season-header {
+  font-weight: bold;
+  font-family: var(--heading-font);
+  font-size: 35px;
+}
+
+.li {
+  list-style: none;
+}
+
+.meredith-grey {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/206/original/meredith-grey.png?1726177659");
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  width: 70%;
+  padding: 350px;
 }
