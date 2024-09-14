@@ -73,15 +73,30 @@ h1 {
   font-size: 35px;
 }
 
-.li {
-  list-style: none;
+.gallery {
+  background: white;
 }
 
-.meredith-grey {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/206/original/meredith-grey.png?1726177659");
-  background-size: cover;
-  background-position-x: 50%;
-  background-position-y: 50%;
-  width: 70%;
-  padding: 350px;
+h2 {
+  font-family: var(--heading-font);
+  padding: 20px;
+}
+
+.card {
+  padding: 10px;
+  background: #96adc4;
+  max-width: 19%;
+  display: block;
+  margin: 0 auto;
+}
+
+.character {
+  max-width: 100%;
+}
+
+.character-cast-names {
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bold;
 }
